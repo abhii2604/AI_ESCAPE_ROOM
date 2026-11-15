@@ -1,0 +1,37 @@
+{
+  "room_name": "The Mystery of the Locked Library",
+  "description": "You wake up inside a mysterious locked library.",
+  "objects": {
+    "desk": {
+      "description": "An old wooden desk with several drawers.",
+      "examined": false
+    },
+    "bookshelf": {
+      "description": "A bookshelf containing four unusual books.",
+      "examined": false
+    },
+    "painting": {
+      "description": "An old painting hanging on the wall.",
+      "examined": false
+    },
+    "drawer": {
+      "description": "A locked drawer requiring a four-digit code.",
+      "examined": false,
+      "locked": true
+    },
+    "door": {
+      "description": "A heavy exit door with a digital lock.",
+      "examined": false,
+      "locked": true
+    }
+  },
+  "puzzles": {
+    "drawer_code": "2584",
+    "final_code": "7391"
+  },
+  "items": {
+    "key": {
+      "collected": false
+    }
+  }
+}
